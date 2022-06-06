@@ -1,0 +1,22 @@
+diff --git a/libiberty/config.in b/libiberty/config.in
+index f7052b5d958..11fb81201c9 100644
+--- a/libiberty/config.in
++++ b/libiberty/config.in
+@@ -115,7 +115,7 @@
+ #undef HAVE_DUP3
+ 
+ /* Define to 1 if you have the <fcntl.h> header file. */
+-#undef HAVE_FCNTL_H
++#define HAVE_FCNTL_H
+ 
+ /* Define to 1 if you have the `ffs' function. */
+ #undef HAVE_FFS
+@@ -154,7 +154,7 @@
+ #undef HAVE_INTTYPES_H
+ 
+ /* Define to 1 if you have the <limits.h> header file. */
+-#undef HAVE_LIMITS_H
++#define HAVE_LIMITS_H
+ 
+ /* Define if you have the `long long' type. */
+ #undef HAVE_LONG_LONG
