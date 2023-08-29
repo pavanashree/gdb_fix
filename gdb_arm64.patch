@@ -7,7 +7,7 @@ index f7052b5d958..11fb81201c9 100644
  
  /* Define to 1 if you have the <fcntl.h> header file. */
 -#undef HAVE_FCNTL_H
-+#define HAVE_FCNTL_H
++#define HAVE_FCNTL_H 1
  
  /* Define to 1 if you have the `ffs' function. */
  #undef HAVE_FFS
@@ -16,7 +16,7 @@ index f7052b5d958..11fb81201c9 100644
  
  /* Define to 1 if you have the <limits.h> header file. */
 -#undef HAVE_LIMITS_H
-+#define HAVE_LIMITS_H
++#define HAVE_LIMITS_H 1
  
  /* Define if you have the `long long' type. */
  #undef HAVE_LONG_LONG
